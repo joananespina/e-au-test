@@ -1,11 +1,10 @@
 {
   "name": "cctv-auto-update",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "Electron Auto Update Test",
   "main": "main.js",
   "scripts": {
-    "start": "electron .",
-    "electron-packager-32": "electron-packager ./ auto-update-test --overwrite --app-version='0.0.1' --app-copyright='Copyright © 2018. Happyweb Corporation. All Rights Reserved.' --asar --platform=win32 --arch=ia32 --executable-name='Auto Update Test'"
+    "start": "electron ."
   },
   "author": "itneeds.tech",
   "license": "ISC",

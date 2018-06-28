@@ -44,7 +44,7 @@ function createWindow () {
 
   // and load the index.html of the app.
   // mainWindow.loadFile('public/index.html');
-  mainWindow.loadURL(`file://${__dirname}/public/index.html`);
+  mainWindow.loadURL(`file://${__dirname}/dev/public/index.html`);
 
   // remove menu bar
   mainWindow.setMenu(null);
